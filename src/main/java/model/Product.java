@@ -25,7 +25,6 @@ public class Product implements Serializable{
 	public Product(int id,String name,int price,String updated){
 		this(name,price,updated);
 		this.id=id;
-		
 	}
 	
 	//*************************************
